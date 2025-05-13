@@ -69,17 +69,17 @@ const Nav = () => {
               </a>
             </li>
             <li className="py-2">
-              <a href="/about" className="text-gray-700 hover:text-blue-500 transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2" onClick={() => setIsOpen(false)}>
+              <a href="" className="text-gray-700 hover:text-blue-500 transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2" onClick={() => setIsOpen(false)}>
                 About
               </a>
             </li>
             <li className="py-2">
-              <a href="/services" className="text-gray-700 hover:text-blue-500 transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2" onClick={() => setIsOpen(false)}>
+              <a href="" className="text-gray-700 hover:text-blue-500 transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2" onClick={() => setIsOpen(false)}>
                 Services
               </a>
             </li>
             <li className="py-2">
-              <a href="/contact" className="text-gray-700 hover:text-blue-500 transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2" onClick={() => setIsOpen(false)}>
+              <a href="" className="text-gray-700 hover:text-blue-500 transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2" onClick={() => setIsOpen(false)}>
                 Contact Us
               </a>
             </li>
