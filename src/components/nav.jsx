@@ -1,6 +1,5 @@
 'use client';
 
-import Link from 'next/link';
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { HiMenuAlt3 } from 'react-icons/hi';
@@ -14,36 +13,36 @@ const Nav = () => {
   };
 
   return (
-    <nav className="shadow-md sticky top-0 z-10"> {/* Added bg-white for mobile menu background */}
+    <nav className="shadow-md sticky top-0 z-10">
       <div className="flex justify-between items-center py-4 px-6 container mx-auto">
         <div className="flex items-center">
-          <Link href="/" className="focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2">
+          <a href="/" className="focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2">
             <Image src="/reallogo.jpg" alt="Website Logo" width={30} height={30} priority={true} />
-          </Link>
+          </a>
         </div>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center justify-center gap-8">
           <ul className="flex gap-8 list-none">
             <li>
-              <Link href="/" className="text-gray-700 hover:text-blue-500 transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2">
+              <a href="/" className="text-gray-700 hover:text-blue-500 transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2">
                 Home
-              </Link>
+              </a>
             </li>
             <li>
-              <Link href="/about" className="text-gray-700 hover:text-blue-500 transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2">
+              <a href="/about" className="text-gray-700 hover:text-blue-500 transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2">
                 About
-              </Link>
+              </a>
             </li>
             <li>
-              <Link href="/services" className="text-gray-700 hover:text-blue-500 transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2">
+              <a href="/services" className="text-gray-700 hover:text-blue-500 transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2">
                 Services
-              </Link>
+              </a>
             </li>
             <li>
-              <Link href="/contact" className="text-gray-700 hover:text-blue-500 transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2">
+              <a href="/contact" className="text-gray-700 hover:text-blue-500 transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2">
                 Contact Us
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
@@ -62,27 +61,27 @@ const Nav = () => {
 
       {/* Mobile Navigation Menu */}
       {isOpen && (
-        <div className="md:hidden absolute top-full left-0 w-full  shadow-md z-20">
+        <div className="md:hidden absolute top-full left-0 w-full shadow-md z-20">
           <ul className="flex flex-col items-center py-4">
             <li className="py-2">
-              <Link href="/" className="text-gray-700 hover:text-blue-500 transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2" onClick={() => setIsOpen(false)}>
+              <a href="/" className="text-gray-700 hover:text-blue-500 transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2" onClick={() => setIsOpen(false)}>
                 Home
-              </Link>
+              </a>
             </li>
             <li className="py-2">
-              <Link href="/about" className="text-gray-700 hover:text-blue-500 transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2" onClick={() => setIsOpen(false)}>
+              <a href="/about" className="text-gray-700 hover:text-blue-500 transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2" onClick={() => setIsOpen(false)}>
                 About
-              </Link>
+              </a>
             </li>
             <li className="py-2">
-              <Link href="/services" className="text-gray-700 hover:text-blue-500 transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2" onClick={() => setIsOpen(false)}>
+              <a href="/services" className="text-gray-700 hover:text-blue-500 transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2" onClick={() => setIsOpen(false)}>
                 Services
-              </Link>
+              </a>
             </li>
             <li className="py-2">
-              <Link href="/contact" className="text-gray-700 hover:text-blue-500 transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2" onClick={() => setIsOpen(false)}>
+              <a href="/contact" className="text-gray-700 hover:text-blue-500 transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2" onClick={() => setIsOpen(false)}>
                 Contact Us
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
