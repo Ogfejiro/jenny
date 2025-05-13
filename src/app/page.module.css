@@ -1,0 +1,20 @@
+.responsive-bg {
+  background-image: url('/group.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Medium screens and up */
+@media (min-width: 768px) {
+  .responsive-bg {
+    background-image: url('/group.jpg');
+  }
+}
+
+/* Large screens and up */
+@media (min-width: 1024px) {
+  .responsive-bg {
+    background-image: url('/group.jpg');
+  }
+}

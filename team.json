@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "name": "Mr. Kwame Adebayo",
+    "title": "Senior Strategist",
+    "image": "/group.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Ms. Zola Nkosi",
+    "title": "Marketing Lead",
+    "image": "/girl1.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Dr. Aisha Bello",
+    "title": "Chief Executive Officer",
+    "image": "/guys.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Mr. Femi Coker",
+    "title": "Head of Operations",
+    "image": "/girl2.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Ms. Ngozi Okoro",
+    "title": "Client Relations Manager",
+    "image": "/girl3.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Ms. Ngozi Okoro",
+    "title": "Chief Executive Officer",
+    "image": "/ceo.jpg"
+  }
+]
