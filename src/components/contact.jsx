@@ -3,7 +3,7 @@
 import React from 'react';
 
 const Contact = () => {
-  const whatsappNumber = '2349034982572'; // Ensure you include the country code
+  const whatsappNumber = '2348131225847'; // Ensure you include the country code
   const defaultMessage = 'Hello, I am contacting you from your website...';
 
   const handleSubmit = (event) => {
