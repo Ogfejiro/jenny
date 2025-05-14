@@ -1,29 +1,40 @@
 'use client';
 import React from 'react';
+import Image from 'next/image';
 
 const About = () => {
+  const whatsappNumber = '2347054558032'; // Ensure you include the country code
+  const defaultMessage = 'Hello, I am contacting you from your website...';
+
+  const handleSubmit = (event) => {
+    const fullMessage = `Contact from Website:\n\n${defaultMessage}`; // Simplified message as name, email, message are undefined here
+    const encodedMessage = encodeURIComponent(fullMessage);
+    const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+
+    window.open(whatsappURL, '_blank');
+  };
+
   return (
     <div className="py-16"> {/* Added a light background for better contrast */}
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-around gap-14 p-6 md:p-12">
-        <div className="md:w-1/2 text-center md:text-left text-black" data-aos="fade-right"> {/* Made text black */}
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">We are a team in law practice</h1>
-          <p className="text-lg">Call JennyVideos</p>
+        <div className="md:w-1/2 text-center md:text-left text-light-lilac" data-aos="fade-right"> {/* Made text black */}
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-normal">Welcome to Jenny's Vid! We're a team of mobile videographers and content creators.
+          </h1>
+           <button
+             data-aos="zoom-right"
+             type="button" // Changed to "button" as there's no form here
+             onClick={handleSubmit} // Attached handleSubmit to onClick
+             className="bg-black hover:bg-purple-400 text-white font-bold py-3 px-6 rounded focus:outline-none focus:shadow-outline" // Made button full width on all screens
+           >
+             Lets Serve You
+           </button>
         </div>
         <div className="md:w-1/2 text-center md:text-left text-black"> {/* Made text black */}
-          
+          <Image src="/group.jpg" alt="group" width={450} height={80} className='rounded-md shadow-md' data-aos="fade-left"></Image>
         </div>
       </div>
 
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-around gap-14 p-6 md:p-12 mt-16">
-        <div className="md:w-1/2 text-center md:text-left order-2 md:order-1 text-black"> {/* Made text black */}
-          </div>
-        <div className="md:w-1/2 text-center md:text-left order-1 md:order-2 text-black" data-aos="fade-left"> {/* Made text black */}
-          <h2 className="text-3xl font-semibold mb-4">Our Values</h2>
-          <p className="text-lg">Integrity, Excellence, Client Focus.</p>
-        </div>
-      </div>
 
-      {/* You can continue adding more sections with this alternating pattern */}
     </div>
   );
 };

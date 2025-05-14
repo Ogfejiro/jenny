@@ -12,7 +12,7 @@ const Team = () => {
         {teamData.map((member, index) => (
           <div
             key={member.id}
-            className={`bg-white rounded-lg shadow-md overflow-hidden ${
+            className={`bg-#f0f0f8 rounded-lg shadow-md overflow-hidden ${
               index === 2 ? 'md:order-2' : index < 2 ? 'md:order-1' : 'md:order-3'
             }`}
           >

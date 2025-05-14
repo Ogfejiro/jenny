@@ -1,20 +1,6 @@
 .responsive-bg {
-  background-image: url('/group.jpg');
+  background-color: #f0f0f8; /* A very light lilac color */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
-
-/* Medium screens and up */
-@media (min-width: 768px) {
-  .responsive-bg {
-    background-image: url('/group.jpg');
-  }
-}
-
-/* Large screens and up */
-@media (min-width: 1024px) {
-  .responsive-bg {
-    background-image: url('/group.jpg');
-  }
 }

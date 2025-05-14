@@ -3,7 +3,7 @@
 import React from 'react';
 
 const Contact = () => {
-  const whatsappNumber = '2348131225847'; // Ensure you include the country code
+  const whatsappNumber = '2347054558032'; // Ensure you include the country code
   const defaultMessage = 'Hello, I am contacting you from your website...';
 
   const handleSubmit = (event) => {
@@ -25,11 +25,11 @@ const Contact = () => {
         {/* Left Div: Contact Us Text */}
         <div className="text-center md:text-left mb-8 md:mb-0">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4" data-aos="fade-left">Contact Us</h1>
-          <p>We are here to help you anytime anyday</p>
+          <p className='text-#f0f0f8 text-2xl font-bold'>We are here to help you anytime anyday</p>
         </div>
 
         {/* Right Div: Contact Form */}
-        <div className="bg-white shadow-md rounded-lg p-8 w-full md:w-1/2">
+        <div className="bg-#f0f0f8 shadow-md rounded-lg p-8 w-full md:w-1/2">
           <h2 className="text-xl font-semibold text-gray-800 mb-4">Contact Us Details</h2>
           <form onSubmit={handleSubmit}>
             <div className="mb-4" data-aos="zoom-right">

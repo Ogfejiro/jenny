@@ -61,7 +61,7 @@ const Nav = () => {
 
       {/* Mobile Navigation Menu */}
       {isOpen && (
-        <div className="md:hidden absolute top-full left-0 w-full shadow-md z-20">
+        <div className= "md:hidden absolute top-full left-0 w-full shadow-md z-20">
           <ul className="flex flex-col items-center py-4">
             <li className="py-2">
               <a href="/" className="text-gray-700 hover:text-blue-500 transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2" onClick={() => setIsOpen(false)}>
