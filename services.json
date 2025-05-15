@@ -1,28 +1,27 @@
 [
   {
     "id": "1",
-    "title": "Video Editing",
-    "description": "Professional video editing services to bring your footage to life.",
-    "videoUrl": "https://vm.tiktok.com/ZMSeMJGKY/",
-    "thumbnailUrl": "/images/video1-thumbnail.jpg"
+    "title": "Bridial Shower",
+    "description": "Make your Bridial Shower Memorable as Ever.",
+    "videoUrl": "https://vm.tiktok.com/ZMSdx1SY8/",
+    "thumbnailUrl":  "/tumbnail1.jpg"
     
   },
   {
     "id": "2",
-    "title": "Motion Graphics",
-    "description": "Engaging motion graphics and animations for your brand.",
-    "videoUrl": "https://vm.tiktok.com/ZMSeMyPaS/",
-    "thumbnailUrl": "/images/video2-thumbnail.jpg"
+    "title": "Wedding Content",
+    "description": "Never Miss a Moment.",
+    "videoUrl": "https://vm.tiktok.com/ZMSdxy4R4/",
+    "thumbnailUrl":  "/tumbnail2.jpg"
   
   },
+
   {
-    "id": "3",
-    "title": "Live Streaming",
-    "description": "Seamless live streaming services for events and webinars.",
-    "videoUrl": "https://vm.tiktok.com/ZMSeMYNWs/",
-    "thumbnailUrl": "/images/video3-thumbnail.jpg"
-    
-  }
-  
+  "id": "3",
+  "title": "Traditionally Ready",
+  "description": "Make your Traditional Ceremony Memorable.",
+  "videoUrl": "https://vm.tiktok.com/ZMSdxFthF/",
+  "thumbnailUrl": "/thumbnail3.jpg"
+}
   
 ]

@@ -17,14 +17,14 @@ const About = () => {
   return (
     <div className="py-16"> {/* Added a light background for better contrast */}
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-around gap-14 p-6 md:p-12">
-        <div className="md:w-1/2 text-center md:text-left text-light-lilac" data-aos="fade-right"> {/* Made text black */}
+        <div className="md:w-1/2 text-center md:text-left text-purple-400" data-aos="fade-right"> {/* Made text black */}
           <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-normal">Welcome to Jenny's Vid! We're a team of mobile videographers and content creators.
           </h1>
            <button
              data-aos="zoom-right"
              type="button" // Changed to "button" as there's no form here
              onClick={handleSubmit} // Attached handleSubmit to onClick
-             className="bg-black hover:bg-purple-400 text-white font-bold py-3 px-6 rounded focus:outline-none focus:shadow-outline" // Made button full width on all screens
+             className="bg-purple-400 hover:bg-black text-white font-bold py-3 px-6 rounded focus:outline-none focus:shadow-outline" // Made button full width on all screens
            >
              Lets Serve You
            </button>

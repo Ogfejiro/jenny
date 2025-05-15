@@ -24,12 +24,12 @@ const Contact = () => {
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-16 md:gap-24">
         {/* Left Div: Contact Us Text */}
         <div className="text-center md:text-left mb-8 md:mb-0">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4" data-aos="fade-left">Contact Us</h1>
-          <p className='text-#f0f0f8 text-2xl font-bold'>We are here to help you anytime anyday</p>
+          <h1 className="text-4xl md:text-5xl font-bold text-purple-400 mb-4" data-aos="fade-left">Contact Us</h1>
+          <p className='text-purple-300 text-2xl font-bold' data-aos="fade-right">We are here to help you anytime anyday</p>
         </div>
 
         {/* Right Div: Contact Form */}
-        <div className="bg-#f0f0f8 shadow-md rounded-lg p-8 w-full md:w-1/2">
+        <div className="bg-purple-200 shadow-md rounded-lg p-8 w-full md:w-1/2">
           <h2 className="text-xl font-semibold text-gray-800 mb-4">Contact Us Details</h2>
           <form onSubmit={handleSubmit}>
             <div className="mb-4" data-aos="zoom-right">
@@ -47,7 +47,7 @@ const Contact = () => {
             <button
             data-aos="zoom-right"
               type="submit"
-              className="bg-green-500 hover:bg-green-700 text-white font-bold py-3 px-6 rounded focus:outline-none focus:shadow-outline w-full" // Made button full width on all screens
+              className="bg-purple-400 hover:bg-black text-white font-bold py-3 px-6 rounded focus:outline-none focus:shadow-outline w-full" // Made button full width on all screens
             >
               Send via WhatsApp
             </button>

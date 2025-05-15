@@ -16,7 +16,7 @@ const Footer = () => {
     <footer className="bg-black shadow-md py-8 text-white">
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
         <div className="mb-4 md:mb-0">
-          <p className="text-sm text-gray-400">&copy; {new Date().getFullYear()} Your Website Name. All rights reserved.</p>
+          <p className="text-sm text-gray-400">&copy; {new Date().getFullYear()} JennyVid. All rights reserved.</p>
         </div>
         <div className="flex space-x-4 mb-4 md:mb-0">
           {socials.map((social) => (
@@ -26,7 +26,7 @@ const Footer = () => {
           ))}
         </div>
         <div>
-          <Link href={contactEmail} className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-offset-2 transition duration-300">
+          <Link href={contactEmail} className="bg-purple-400 hover:bg-black text-white font-bold py-2 px-4 rounded focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-offset-2 transition duration-300">
             Contact Us
           </Link>
         </div>

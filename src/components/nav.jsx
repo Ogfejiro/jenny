@@ -13,7 +13,7 @@ const Nav = () => {
   };
 
   return (
-    <nav className="shadow-md sticky top-0 z-10">
+    <nav className="shadow-md sticky top-0 z-10 bg-purple-100">
       <div className="flex justify-between items-center py-4 px-6 container mx-auto">
         <div className="flex items-center">
           <a href="/" className="focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2">
@@ -22,7 +22,7 @@ const Nav = () => {
         </div>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center justify-center gap-8">
+        <div className="hidden md:flex items-center justify-center gap-8 ">
           <ul className="flex gap-8 list-none">
             <li>
               <a href="/" className="text-gray-700 hover:text-blue-500 transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2">
@@ -61,7 +61,7 @@ const Nav = () => {
 
       {/* Mobile Navigation Menu */}
       {isOpen && (
-        <div className= "md:hidden absolute top-full left-0 w-full shadow-md z-20">
+        <div className= "md:hidden absolute top-full left-0 w-full shadow-md z-20 bg-purple-400">
           <ul className="flex flex-col items-center py-4">
             <li className="py-2">
               <a href="/" className="text-gray-700 hover:text-blue-500 transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2" onClick={() => setIsOpen(false)}>

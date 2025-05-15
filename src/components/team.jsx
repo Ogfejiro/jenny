@@ -7,12 +7,12 @@ import teamData from '/team.json'; // Adjust path if needed
 const Team = () => {
   return (
     <div className="container mx-auto py-10">
-      <h1 className="text-3xl font-bold text-center mb-8" data-aos="fade-right">Meet Our Leadership Team</h1>
+      <h1 className="text-3xl font-bold text-center text-purple-400 mb-8" data-aos="fade-right">Meet Our Leadership Team</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {teamData.map((member, index) => (
           <div
             key={member.id}
-            className={`bg-#f0f0f8 rounded-lg shadow-md overflow-hidden ${
+            className={`bg-purple-200 rounded-lg shadow-md overflow-hidden ${
               index === 2 ? 'md:order-2' : index < 2 ? 'md:order-1' : 'md:order-3'
             }`}
           >
