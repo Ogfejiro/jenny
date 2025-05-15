@@ -6,7 +6,7 @@ import Link from 'next/link';
 import servicesData from '/services.json';
 
 const Services = () => {
-  const tiktokUrl = 'https://www.tiktok.com/@your_tiktok_username'; // Replace with your actual TikTok URL
+  const tiktokUrl = 'https://www.tiktok.com/@jennydreo?_t=ZM-8wNQ3KsLPB0&_r=1'; // Replace with your actual TikTok URL
 
   return (
     <div className="container mx-auto py-10">
